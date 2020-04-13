@@ -4,23 +4,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
 public class FibonacciListActivity extends AppCompatActivity {
-
+    TextView loadingView;
+    RecyclerView recyclerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fibonacci_list);
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        int nums = getIntent().getIntExtra("nums", 1);
-        ArrayList<Long> list = FibonacciNumbersCalculator.getNums(nums);
-
+        recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        RecyclerViewFibonacciAdapter adapter = new RecyclerViewFibonacciAdapter(list);
+        int nums = getIntent().getIntExtra("nums", 1);
+        int iterations = 100;
+        ArrayList<Long> fibList = FibonacciNumbersCalculator.getNums(nums);
+        RecyclerViewFibonacciAdapter adapter = new RecyclerViewFibonacciAdapter(fibList);
         recyclerView.setAdapter(adapter);
     }
+
 }
