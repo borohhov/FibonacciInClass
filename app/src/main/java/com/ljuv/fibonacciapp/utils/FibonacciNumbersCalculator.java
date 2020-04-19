@@ -1,4 +1,4 @@
-package com.example.fibonacciapp;
+package com.ljuv.fibonacciapp.utils;
 
 import java.util.ArrayList;
 

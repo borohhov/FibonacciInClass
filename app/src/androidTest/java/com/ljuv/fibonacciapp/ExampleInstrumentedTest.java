@@ -1,4 +1,4 @@
-package com.example.fibonacciapp;
+package com.ljuv.fibonacciapp;
 
 import android.content.Context;
 

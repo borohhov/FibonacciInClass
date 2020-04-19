@@ -1,6 +1,5 @@
-package com.example.fibonacciapp;
+package com.ljuv.fibonacciapp.lists;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.ljuv.fibonacciapp.R;
 
 import java.util.ArrayList;
 
