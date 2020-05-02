@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "64761525913",
+    "firebase_url": "https://calc-e06d1.firebaseio.com",
+    "project_id": "calc-e06d1",
+    "storage_bucket": "calc-e06d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64761525913:android:b3c98d1a6ae83b105baa08",
+        "android_client_info": {
+          "package_name": "com.ljuv.fibonacciapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64761525913-2cn6vl4jp1bh04iut3dh5a7diciot704.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZxZ_OFTWpRjcWzNzm8XqvOx4q8vZPo2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64761525913-2cn6vl4jp1bh04iut3dh5a7diciot704.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64761525913:android:afc15a83904f89745baa08",
+        "android_client_info": {
+          "package_name": "com.ljuv.fibonacciapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64761525913-2cn6vl4jp1bh04iut3dh5a7diciot704.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZxZ_OFTWpRjcWzNzm8XqvOx4q8vZPo2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64761525913-2cn6vl4jp1bh04iut3dh5a7diciot704.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
