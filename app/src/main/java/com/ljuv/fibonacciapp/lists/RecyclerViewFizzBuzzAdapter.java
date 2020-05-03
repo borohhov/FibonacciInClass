@@ -14,9 +14,9 @@ import java.util.ArrayList;
 
 public class RecyclerViewFizzBuzzAdapter extends RecyclerView.Adapter<RecyclerViewFizzBuzzAdapter.FizzBuzzViewHolder> {
 
-    private ArrayList<String> list;
+    private ArrayList<Long> list;
 
-    public RecyclerViewFizzBuzzAdapter(ArrayList<String> fizzBuzzList) {
+    public RecyclerViewFizzBuzzAdapter(ArrayList<Long> fizzBuzzList) {
         this.list = fizzBuzzList;
     }
 

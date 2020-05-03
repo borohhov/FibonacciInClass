@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "342595250578",
+    "firebase_url": "https://fibonacciapp-1a34a.firebaseio.com",
+    "project_id": "fibonacciapp-1a34a",
+    "storage_bucket": "fibonacciapp-1a34a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342595250578:android:39c977f231408cc9f7794b",
+        "android_client_info": {
+          "package_name": "com.ljuv.fibonacciapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342595250578-r8ah6fcrfjm7rdkscr86pthiqjlblt0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbqmdneWg-wU5jVs78VE0PReXxjzkfJ9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342595250578-r8ah6fcrfjm7rdkscr86pthiqjlblt0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
